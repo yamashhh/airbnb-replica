@@ -1,0 +1,23 @@
+.subheading {
+  font-size: 2.4rem;
+  line-height: 3rem;
+  font-weight: 600;
+  color: $black-black-out;
+
+  &.-small {
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+  }
+
+  &.-short {
+    line-height: 2.4rem;
+  }
+
+  &.-light {
+    color: $black-carbon;
+  }
+
+  &.-bold {
+    font-weight: 650;
+  }
+}

@@ -1,0 +1,26 @@
+.community-container {
+  // @include mobile {
+  //   padding: 40px 24px;
+  // }
+  height: 768px;
+  align-items: center;
+}
+
+.community-container > .heading-container {
+  margin-left: 80px;
+}
+
+.community-container > .heading-container > .heading {
+  margin-bottom: 32px;
+}
+
+.community-container > .heading-container > .text {
+  margin-bottom: 32px;
+}
+
+// .community-container > .heading-container > .button-common {
+//   width: 136px;
+//   height: 56px;
+//   font-size: 1.8rem;
+//   line-height: 2.4rem;
+// }

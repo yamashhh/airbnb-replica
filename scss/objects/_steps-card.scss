@@ -1,0 +1,21 @@
+.steps-card {
+  @include default-card;
+}
+
+.steps-card > .image {
+  width: 256px;
+  height: 160px;
+  margin-bottom: 24px;
+}
+
+.steps-card > .subheading {
+  line-height: 3rem;
+  width: 256px;
+  margin-bottom: 24px;
+}
+
+.steps-card > .text {
+  line-height: 2.4rem;
+  width: 256px;
+  margin-bottom: 17px;
+}

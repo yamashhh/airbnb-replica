@@ -1,0 +1,30 @@
+.text {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: $black-black-out;
+
+  &.-large {
+    font-size: 1.8rem;
+  }
+
+  &.-xl {
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+  }
+
+  &.-short {
+    line-height: 2.2rem;
+  }
+
+  &.-tall {
+    line-height: 2.5rem;
+  }
+
+  &.-taller {
+    line-height: 2.8rem;
+  }
+
+  &.-bold {
+    font-weight: 800;
+  }
+}

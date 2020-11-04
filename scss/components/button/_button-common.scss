@@ -1,0 +1,26 @@
+.button-common {
+  background-image: linear-gradient(
+    to right,
+    $red-spanish-crimson,
+    $red-tête-à-tête
+  );
+  border: none;
+  border-radius: 10px;
+  color: $white-white;
+  font-weight: 600;
+  outline: none;
+
+  &.-medium {
+    width: 112px;
+    height: 48px;
+    font-size: 1.6rem;
+    line-height: 2rem;
+  }
+
+  &.-large {
+    width: 136px;
+    height: 56px;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+  }
+}

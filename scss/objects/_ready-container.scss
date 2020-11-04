@@ -1,0 +1,9 @@
+.ready-container {
+  width: 50%;
+  flex-direction: column;
+}
+
+.ready-container > .text {
+  width: 85%;
+  margin-bottom: 25px;
+}

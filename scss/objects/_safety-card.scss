@@ -1,0 +1,26 @@
+.safety-card {
+  @include default-card;
+  padding-right: 32px;
+}
+
+// .safety-card > .subheading {
+//   width: 85%;
+// }
+
+// .safety-card > .text {
+//   width: 85%;
+// }
+
+.safety-card > .icon {
+  margin-bottom: 24px;
+}
+
+.safety-card > .subheading {
+  margin-bottom: 16px;
+  width: 85%;
+}
+
+.safety-card > .text {
+  margin-bottom: 17px;
+  width: 85%;
+}

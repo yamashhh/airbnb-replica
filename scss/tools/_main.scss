@@ -1,0 +1,18 @@
+/* 　アニメーションやプリプロセッサ用のmixinやfunctionをこのレイヤーで管理　*/
+
+@mixin default-padding {
+  padding: 72px 80px;
+  @include laptop {
+    padding: 72px 40px;
+  }
+  @include mobile {
+    padding: 32px 24px;
+  }
+}
+
+@mixin default-card {
+  width: 100%;
+  flex-direction: column;
+  justify-content: start;
+  flex: 1;
+}

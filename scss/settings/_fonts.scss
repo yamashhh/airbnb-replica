@@ -1,0 +1,11 @@
+/* グローバルに使用するフォントファミリーを設定 */
+
+// 元のフォント(Circular)はGoogle Fonts(Montserrat)で代用
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap");
+
+// $font-family: Circular, -apple-system, system-ui, Roboto, "Helvetica Neue",
+//   sans-serif;
+
+$font-family: "Montserrat", -apple-system, system-ui, Roboto, "Helvetica Neue",
+  sans-serif;

@@ -1,0 +1,30 @@
+/*　要素セレクタのみ定義する　*/
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: $font-family;
+  font-size: 1.6rem;
+  font-weight: normal;
+  line-height: 1.6;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  -webkit-print-color-adjust: exact;
+  -webkit-font-smoothing: antialiased;
+}
+
+hr {
+  margin: 0;
+  border-color: $gray-steam;
+}
+
+footer {
+  border-top: 1px solid $gray-steam;
+  background-color: $white-lynx-white;
+}
+
+ul {
+  list-style: none;
+}

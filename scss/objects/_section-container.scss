@@ -1,0 +1,9 @@
+.section-container {
+  padding: 72px 80px;
+  @include laptop {
+    padding: 72px 40px;
+  }
+  @include mobile {
+    padding: 32px 24px;
+  }
+}

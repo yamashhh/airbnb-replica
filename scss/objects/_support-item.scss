@@ -1,0 +1,11 @@
+.support-item {
+  margin-bottom: 48px;
+
+  &.-no-mb {
+    margin-bottom: 0;
+  }
+}
+
+.support-item > .icon {
+  margin-right: 16px;
+}

@@ -1,0 +1,22 @@
+.people-card {
+  @include default-card;
+  margin-right: 40px;
+}
+
+.people-card > .image {
+  width: 320px;
+  height: 424px;
+  margin-bottom: 16px;
+}
+
+.people-card > .subheading {
+  line-height: 2.4rem;
+  width: 320px;
+  margin-bottom: 8px;
+}
+
+.people-card > .text {
+  line-height: 2rem;
+  width: 320px;
+  margin-bottom: 9px;
+}
