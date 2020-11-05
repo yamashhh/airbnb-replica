@@ -5,14 +5,25 @@
   font-weight: 600;
   text-decoration: underline;
 
-  &.-footer {
+  &.-short {
     line-height: 1.8rem;
+  }
+
+  &.-hover:hover {
+    color: $gray-pig-iron;
+  }
+
+  &.-footer {
+    // line-height: 1.8rem;
     font-weight: 400;
     text-decoration: none;
   }
 
   &.-footer:hover {
-    color: $gray-pig-iron;
     text-decoration: underline;
+  }
+
+  &.-social {
+    text-decoration: none;
   }
 }
