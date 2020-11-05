@@ -35,6 +35,8 @@
 @import "objects/nav-block";
 @import "objects/nav-item";
 @import "objects/legal-container";
+@import "objects/region-container";
+@import "objects/social-container";
 
 // components
 @import "components/button/button-common";
@@ -48,6 +50,7 @@
 @import "components/text";
 @import "components/icon";
 @import "components/copyright";
+@import "components/dot";
 
 // utilities
 @import "utilities/main";

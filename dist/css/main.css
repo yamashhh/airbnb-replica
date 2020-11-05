@@ -359,7 +359,9 @@ ul {
   margin: 48px 0;
 }
 .nav-container.-bottom {
-  margin: 25px 0;
+  margin: 0;
+  padding: 25px 0;
+  justify-content: space-between;
 }
 
 .nav-block {
@@ -375,6 +377,23 @@ ul {
 
 .legal-container {
   flex-direction: column;
+}
+
+.region-container {
+  width: 183px;
+  margin-right: 24px;
+  justify-content: space-between;
+}
+
+.region-container > .link > .icon {
+  margin-right: 8px;
+}
+
+.social-container {
+  width: 102px;
+  margin-left: 32px;
+  justify-content: space-between;
+  align-items: start;
 }
 
 .button-common {
@@ -441,14 +460,21 @@ ul {
   font-weight: 600;
   text-decoration: underline;
 }
-.link.-footer {
+.link.-short {
   line-height: 1.8rem;
+}
+.link.-hover:hover {
+  color: #484848;
+}
+.link.-footer {
   font-weight: 400;
   text-decoration: none;
 }
 .link.-footer:hover {
-  color: #484848;
   text-decoration: underline;
+}
+.link.-social {
+  text-decoration: none;
 }
 
 .price {
@@ -521,11 +547,23 @@ ul {
   width: 48px;
   height: 48px;
 }
+.icon.-link {
+  fill: #222222;
+}
+.icon.-link:hover {
+  fill: #484848;
+}
 
 .copyright {
   font-size: 1.4rem;
   line-height: 1.8rem;
   font-weight: 400;
+}
+
+.dot {
+  width: 19px;
+  height: 20px;
+  text-align: center;
 }
 
 /*　これまでのレイヤーを上書きするスタイルを定義する　*/
