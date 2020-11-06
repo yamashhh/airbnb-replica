@@ -1,7 +1,11 @@
 .heading-container {
-  width: 50%;
+  width: 45%;
 
   &.-small {
     width: 30%;
+  }
+
+  &.-large {
+    width: 50%;
   }
 }

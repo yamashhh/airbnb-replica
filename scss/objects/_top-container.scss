@@ -1,10 +1,10 @@
 .top-container {
-  padding: 0 80px;
+  padding: 64px 80px;
   @include mobile {
     padding: 40px 24px;
   }
-  height: 580px;
-  justify-content: space-between;
+  height: 452px;
+  // justify-content: space-between;
   align-items: center;
   background-color: $white-jet-white;
 }

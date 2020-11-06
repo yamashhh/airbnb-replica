@@ -1,6 +1,7 @@
 .text {
   font-size: 1.6rem;
   line-height: 2.4rem;
+  font-weight: 400;
   color: $black-black-out;
 
   &.-large {
@@ -10,6 +11,10 @@
   &.-xl {
     font-size: 2.4rem;
     line-height: 3.2rem;
+  }
+
+  &.-shorter {
+    line-height: 2rem;
   }
 
   &.-short {

@@ -173,9 +173,8 @@ ul {
 }
 
 .top-container {
-  padding: 0 80px;
-  height: 580px;
-  justify-content: space-between;
+  padding: 64px 80px;
+  height: 452px;
   align-items: center;
   background-color: #f2ece2;
 }
@@ -196,17 +195,54 @@ ul {
 }
 
 .heading-container {
-  width: 50%;
+  width: 45%;
 }
 .heading-container.-small {
   width: 30%;
 }
+.heading-container.-large {
+  width: 50%;
+}
+
+.estimate-container {
+  width: 55%;
+  justify-content: center;
+}
 
 .estimate-card {
-  min-width: 432px;
-  max-width: 544px;
-  padding: 32px;
+  width: 480px;
+  height: 432px;
+  padding: 0 32px;
+  margin: 0 32px;
   background-color: #fff;
+}
+
+.estimate-card > .button-black {
+  margin: 8px 0 24px 0;
+}
+
+.estimate-form {
+  height: 312px;
+  margin-top: 32px;
+  overflow: scroll;
+}
+
+.estimate-form > .text {
+  margin-bottom: 24px;
+}
+
+.input-group {
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+
+.input-group > .text {
+  margin-bottom: 32px;
+}
+
+.checkbox-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .section-container {
@@ -417,6 +453,34 @@ ul {
   line-height: 2.4rem;
 }
 
+.button-expand {
+  border: none;
+  background-color: #fff;
+  color: #222222;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  font-weight: 600;
+  outline: none;
+  padding: 0;
+}
+
+.button-black {
+  background-color: #222323;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 2.4rem;
+  outline: none;
+  width: 100%;
+  height: 56px;
+}
+
+.button-black:hover {
+  background-color: #000;
+}
+
 .logo {
   width: 36px;
   height: 36px;
@@ -509,6 +573,7 @@ ul {
 .text {
   font-size: 1.6rem;
   line-height: 2.4rem;
+  font-weight: 400;
   color: #222222;
 }
 .text.-large {
@@ -517,6 +582,9 @@ ul {
 .text.-xl {
   font-size: 2.4rem;
   line-height: 3.2rem;
+}
+.text.-shorter {
+  line-height: 2rem;
 }
 .text.-short {
   line-height: 2.2rem;
@@ -534,6 +602,10 @@ ul {
 .icon {
   width: 32px;
   height: 32px;
+}
+.icon.-xxs {
+  width: 12px;
+  height: 12px;
 }
 .icon.-xs {
   width: 16px;
