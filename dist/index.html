@@ -23,159 +23,221 @@
             class="logo"
           ></object>
           <div class="heading-container">
-            <h1 class="text -large -short -bold">
+            <h2 class="text -large -short -bold">
               予想ホスティング収入額をチェック
+            </h2>
+            <h1 class="heading">
+              Ōta-kuでホスティングして、ひと月あたり最大
+              <span class="price">¥ 109,183</span>の収入を得ましょう
             </h1>
-            <p class="heading">
-              最大ホスティング収入：<br />
-              <span class="price">¥ 109,183</span> ／1か月、エリア：<br />
-              Ōta-ku
-            </p>
             <a href="#!" class="link">予想ホスティング収入額の計算方法</a>
           </div>
-          <div class="estimate-container">
+          <div class="estimate-container flex-container">
             <div class="estimate-card card-shadow rounded">
-              <h3>
-                予想ホスティング収入額を更新するにはお部屋についてさらに詳しくお聞かせください
-              </h3>
-              <form action="">
-                <input type="text" name="location" placeholder="所在地" />
-                <select name="rentType" id="rentType">
-                  <option value="entireRoom">
-                    <h4>まるまる貸切</h4>
-                    <!-- <p>
-                      ゲストはお部屋をまるまる独り占めできます。専用玄関があり、共有スペースはありません。通常、寝室、バスルーム、キッチンが含まれます。
-                    </p> -->
-                  </option>
-                  <option value="privateRoom">
-                    <h4>個室</h4>
-                    <!-- <p>就寝時はゲスト専用の個室を利用します。その他のエリアは共用の場合があります。</p> -->
-                  </option>
-                  <option value="sharedRoom">
-                    <h4>シェアルーム</h4>
-                    <!-- <p>
-                      ゲストの寝室は他者と共有する場合のある相部屋または共用エリアとなります。
-                    </p> -->
-                  </option>
-                </select>
-                <select name="guests" id="guests">
-                  <option value="0">ゲスト0人</option>
-                  <option value="1">ゲスト1人</option>
-                  <option value="2">ゲスト2人</option>
-                  <option value="3">ゲスト3人</option>
-                  <option value="4" selected>ゲスト4人</option>
-                  <option value="5">ゲスト5人</option>
-                  <option value="6">ゲスト6人</option>
-                  <option value="7">ゲスト7人</option>
-                  <option value="8">ゲスト8人</option>
-                  <option value="9">ゲスト9人</option>
-                  <option value="10">ゲスト10人</option>
-                  <option value="11">ゲスト11人</option>
-                  <option value="12">ゲスト12人</option>
-                  <option value="13">ゲスト13人</option>
-                  <option value="14">ゲスト14人</option>
-                  <option value="15">ゲスト15人</option>
-                </select>
-                <button type="button">
-                  <span>icon goes here</span
-                  >ゲストが利用できる特別なスペースがあればお知らせください
-                </button>
-                <div>
-                  <select name="buildingType" id="buildingType">
-                    <option value="" disabled selected hidden>
-                      建物タイプ
-                    </option>
-                    <option value="apartment">
-                      <h4>マンション・アパート</h4>
-                      <!-- <p>一般的に集合住宅や団地内にある住居を指します</p> -->
-                    </option>
-                    <option value="bAndB">
-                      <h4>B&B</h4>
-                      <!-- <p>ゲストに朝食を提供する形態の法人ホストを指します。通常はホストも宿泊施設に居住しています</p> -->
-                    </option>
-                    <option value="boutiqueHotel">
-                      <h4>デザイナーズホテル</h4>
-                      <!-- <p>ブランド独自のデザインやテーマ、インテリアで統一された法人ホストを指します</p> -->
-                    </option>
-                    <option value="house">
-                      <h4>一軒家</h4>
-                      <!-- <p>
-                        一般的に一戸建ての住居を指しますが、メゾネットやテラスハウスなど、境界壁や屋外エリアをほかの世帯と共有する住宅もこの部類に含まれます
-                      </p> -->
-                    </option>
-                    <option value="subunit">
-                      <h4>サブユニット</h4>
-                      <!-- <p>通常ひとつの建物を別のユニットと共用するものを指し、ゲスト専用の玄関があります</p> -->
-                    </option>
-                    <option value="unique">
-                      <h4>ユニークな宿泊施設</h4>
-                      <!-- <p>キャンピングカー、ファームステイ、テント、タイニーハウス、ツリーハウスなど、特徴的または一風変わった構造の宿泊先を指します</p> -->
-                    </option>
-                  </select>
-                  <select name="bedrooms" id="bedrooms">
-                    <option value="" disabled selected hidden>寝室</option>
-                    <option value="0">0寝室</option>
-                    <option value="1">1寝室</option>
-                    <option value="2">2寝室</option>
-                    <option value="3">3寝室</option>
-                    <option value="4">4寝室</option>
-                    <option value="5">5寝室</option>
-                    <option value="6">6寝室</option>
-                    <option value="7">7寝室</option>
-                    <option value="8">8寝室</option>
-                    <option value="9">9寝室</option>
-                    <option value="10">10寝室</option>
-                    <option value="11">11寝室</option>
-                    <option value="12">12寝室</option>
-                    <option value="13">13寝室</option>
-                    <option value="14">14寝室</option>
-                    <option value="15">15寝室</option>
-                  </select>
-                  <select name="bathrooms" id="bathrooms">
-                    <option value="" disabled selected hidden>
-                      バスルーム
-                    </option>
-                    <option value="0">0バスルーム</option>
-                    <option value="1">1バスルーム</option>
-                    <option value="2">2バスルーム</option>
-                    <option value="3">3バスルーム</option>
-                    <option value="4">4バスルーム</option>
-                    <option value="5">5バスルーム</option>
-                    <option value="6">6バスルーム</option>
-                    <option value="7">7バスルーム</option>
-                    <option value="8">8バスルーム</option>
-                    <option value="9">9バスルーム</option>
-                    <option value="10">10バスルーム</option>
-                    <option value="11">11バスルーム</option>
-                    <option value="12">12バスルーム</option>
-                    <option value="13">13バスルーム</option>
-                    <option value="14">14バスルーム</option>
-                    <option value="15">15バスルーム</option>
-                  </select>
-                  <button type="button">
-                    <span>icon goes here</span>
+              <div class="estimate-form">
+                <h3 class="text -large">
+                  予想ホスティング収入額を更新するにはお部屋についてさらに詳しくお聞かせください
+                </h3>
+                <form>
+                  <div class="input-group flex-container">
+                    <input
+                      type="text"
+                      name="location"
+                      placeholder="所在地"
+                      class="form-text"
+                    />
+                    <select
+                      name="rentType"
+                      id="rentType"
+                      class="form-select -middle"
+                    >
+                      <option value="entireRoom">
+                        <h4>まるまる貸切</h4>
+                        <!-- <p>
+                            ゲストはお部屋をまるまる独り占めできます。専用玄関があり、共有スペースはありません。通常、寝室、バスルーム、キッチンが含まれます。
+                          </p> -->
+                      </option>
+                      <option value="privateRoom">
+                        <h4>個室</h4>
+                        <!-- <p>就寝時はゲスト専用の個室を利用します。その他のエリアは共用の場合があります。</p> -->
+                      </option>
+                      <option value="sharedRoom">
+                        <h4>シェアルーム</h4>
+                        <!-- <p>
+                            ゲストの寝室は他者と共有する場合のある相部屋または共用エリアとなります。
+                          </p> -->
+                      </option>
+                    </select>
+                    <select
+                      name="guests"
+                      id="guests"
+                      class="form-select -bottom"
+                    >
+                      <option value="0">ゲスト0人</option>
+                      <option value="1">ゲスト1人</option>
+                      <option value="2">ゲスト2人</option>
+                      <option value="3">ゲスト3人</option>
+                      <option value="4" selected>ゲスト4人</option>
+                      <option value="5">ゲスト5人</option>
+                      <option value="6">ゲスト6人</option>
+                      <option value="7">ゲスト7人</option>
+                      <option value="8">ゲスト8人</option>
+                      <option value="9">ゲスト9人</option>
+                      <option value="10">ゲスト10人</option>
+                      <option value="11">ゲスト11人</option>
+                      <option value="12">ゲスト12人</option>
+                      <option value="13">ゲスト13人</option>
+                      <option value="14">ゲスト14人</option>
+                      <option value="15">ゲスト15人</option>
+                    </select>
+                  </div>
+                  <button type="button" class="button-expand">
+                    <object
+                      data="svg/icon-plus.svg"
+                      type="image/svg+xml"
+                      class="icon -xxs"
+                    ></object>
+                    ゲストが利用できる特別なスペースがあればお知らせください
+                  </button>
+                  <div class="input-group flex-container">
+                    <select
+                      name="buildingType"
+                      id="buildingType"
+                      class="form-select -top"
+                    >
+                      <option value="" disabled selected hidden>
+                        建物タイプ
+                      </option>
+                      <option value="apartment">
+                        <h4>マンション・アパート</h4>
+                        <!-- <p>一般的に集合住宅や団地内にある住居を指します</p> -->
+                      </option>
+                      <option value="bAndB">
+                        <h4>B&B</h4>
+                        <!-- <p>ゲストに朝食を提供する形態の法人ホストを指します。通常はホストも宿泊施設に居住しています</p> -->
+                      </option>
+                      <option value="boutiqueHotel">
+                        <h4>デザイナーズホテル</h4>
+                        <!-- <p>ブランド独自のデザインやテーマ、インテリアで統一された法人ホストを指します</p> -->
+                      </option>
+                      <option value="house">
+                        <h4>一軒家</h4>
+                        <!-- <p>
+                              一般的に一戸建ての住居を指しますが、メゾネットやテラスハウスなど、境界壁や屋外エリアをほかの世帯と共有する住宅もこの部類に含まれます
+                            </p> -->
+                      </option>
+                      <option value="subunit">
+                        <h4>サブユニット</h4>
+                        <!-- <p>通常ひとつの建物を別のユニットと共用するものを指し、ゲスト専用の玄関があります</p> -->
+                      </option>
+                      <option value="unique">
+                        <h4>ユニークな宿泊施設</h4>
+                        <!-- <p>キャンピングカー、ファームステイ、テント、タイニーハウス、ツリーハウスなど、特徴的または一風変わった構造の宿泊先を指します</p> -->
+                      </option>
+                    </select>
+                    <select
+                      name="bedrooms"
+                      id="bedrooms"
+                      class="form-select -middle"
+                    >
+                      <option value="" disabled selected hidden>寝室</option>
+                      <option value="0">0寝室</option>
+                      <option value="1">1寝室</option>
+                      <option value="2">2寝室</option>
+                      <option value="3">3寝室</option>
+                      <option value="4">4寝室</option>
+                      <option value="5">5寝室</option>
+                      <option value="6">6寝室</option>
+                      <option value="7">7寝室</option>
+                      <option value="8">8寝室</option>
+                      <option value="9">9寝室</option>
+                      <option value="10">10寝室</option>
+                      <option value="11">11寝室</option>
+                      <option value="12">12寝室</option>
+                      <option value="13">13寝室</option>
+                      <option value="14">14寝室</option>
+                      <option value="15">15寝室</option>
+                    </select>
+                    <select
+                      name="bathrooms"
+                      id="bathrooms"
+                      class="form-select -bottom"
+                    >
+                      <option value="" disabled selected hidden>
+                        バスルーム
+                      </option>
+                      <option value="0">0バスルーム</option>
+                      <option value="1">1バスルーム</option>
+                      <option value="2">2バスルーム</option>
+                      <option value="3">3バスルーム</option>
+                      <option value="4">4バスルーム</option>
+                      <option value="5">5バスルーム</option>
+                      <option value="6">6バスルーム</option>
+                      <option value="7">7バスルーム</option>
+                      <option value="8">8バスルーム</option>
+                      <option value="9">9バスルーム</option>
+                      <option value="10">10バスルーム</option>
+                      <option value="11">11バスルーム</option>
+                      <option value="12">12バスルーム</option>
+                      <option value="13">13バスルーム</option>
+                      <option value="14">14バスルーム</option>
+                      <option value="15">15バスルーム</option>
+                    </select>
+                  </div>
+                  <button type="button" class="button-expand">
+                    <object
+                      data="svg/icon-plus.svg"
+                      type="image/svg+xml"
+                      class="icon -xxs"
+                    ></object>
                     特別なアメニティ・設備を追加
                   </button>
-                  <div>
-                    <p>
+                  <div class="input-group flex-container">
+                    <p class="text -shorter">
                       ゲストに人気の特別なアメニティ・設備がある場合は、お知らせください
                     </p>
-                    <input type="checkbox" id="gym" name="gym" />
-                    <label for="gym">ジム</label>
-                    <input type="checkbox" id="waterfront" name="waterfront" />
-                    <label for="gym">ウォーターフロント</label>
-                    <input type="checkbox" id="hottub" name="hottub" />
-                    <label for="gym">露天風呂・ジャグジー</label>
-                    <input type="checkbox" id="beachfront" name="beachfront" />
-                    <label for="gym">ビーチフロント</label>
-                    <input type="checkbox" id="pool" name="pool" />
-                    <label for="gym">プール</label>
+                    <div class="checkbox-container">
+                      <div class="checkbox-block">
+                        <input type="checkbox" id="gym" name="gym" />
+                        <label for="gym" class="text -shorter">ジム</label>
+                      </div>
+                      <div class="checkbox-block">
+                        <input
+                          type="checkbox"
+                          id="waterfront"
+                          name="waterfront"
+                        />
+                        <label for="gym" class="text -shorter"
+                          >ウォーターフロント</label
+                        >
+                      </div>
+                      <div class="checkbox-block">
+                        <input type="checkbox" id="hottub" name="hottub" />
+                        <label for="gym" class="text -shorter"
+                          >露天風呂・ジャグジー</label
+                        >
+                      </div>
+                      <div class="checkbox-block">
+                        <input
+                          type="checkbox"
+                          id="beachfront"
+                          name="beachfront"
+                        />
+                        <label for="gym" class="text -shorter"
+                          >ビーチフロント</label
+                        >
+                      </div>
+                      <div class="checkbox-block">
+                        <input type="checkbox" id="pool" name="pool" />
+                        <label for="gym" class="text -shorter">プール</label>
+                      </div>
+                    </div>
                   </div>
-                </div>
-                <button type="button" class="">
-                  リスティングの掲載をはじめる
-                </button>
-              </form>
+                </form>
+              </div>
+              <button type="button" class="button-black">
+                リスティングの掲載をはじめる
+              </button>
             </div>
           </div>
         </section>
@@ -415,35 +477,8 @@
             </div>
           </div>
         </section>
-        <!-- <section>
-          <h2>城からコンドミニアムまで、ゲストはあらゆる宿泊先を予約します</h2>
-          <a href="https://www.airbnb.jp/s/homes?property_type_id%5B%5D=2">
-            <img src="" alt="Image of a house" />
-            <h3>一軒家</h3>
-          </a>
-          <a href="https://www.airbnb.jp/s/homes?property_type_id%5B%5D=67">
-            <img src="" alt="Image of a tiny house" />
-            <h3>タイニーハウス</h3>
-          </a>
-          <a href="https://www.airbnb.jp/s/homes?property_type_id%5B%5D=40">
-            <img src="" alt="Image of a guesthouse" />
-            <h3>離れ</h3>
-          </a>
-          <a href="https://www.airbnb.jp/s/homes?property_type_id%5B%5D=3">
-            <img src="" alt="Image of a B&B" />
-            <h3>B&B</h3>
-          </a>
-          <a href="https://www.airbnb.jp/s/homes?property_type_id%5B%5D=1">
-            <img src="" alt="Image of an apartment" />
-            <h3>マンション・アパート</h3>
-          </a>
-          <a href="https://www.airbnb.jp/s/homes?property_type_id%5B%5D=43">
-            <img src="" alt="Image of a boutique hotel" />
-            <h3>デザイナーズホテル</h3>
-          </a>
-        </section> -->
         <section class="section-container flex-container">
-          <div class="heading-container">
+          <div class="heading-container -large">
             <h2 class="heading -light">Airbnbがいつでもサポートします</h2>
           </div>
           <div class="support-container flex-container">
@@ -509,7 +544,7 @@
         </section>
         <hr />
         <section class="section-container flex-container">
-          <div class="heading-container">
+          <div class="heading-container -large">
             <h2 class="heading">ホストになる準備はできましたか？</h2>
           </div>
           <div class="ready-container flex-container">

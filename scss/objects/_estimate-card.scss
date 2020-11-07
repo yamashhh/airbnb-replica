@@ -1,6 +1,13 @@
 .estimate-card {
-  min-width: 432px;
-  max-width: 544px;
-  padding: 32px;
+  // min-width: 368px;
+  // max-width: 480px;
+  width: 480px;
+  height: 432px;
+  padding: 0 32px;
+  margin: 0 32px;
   background-color: $white-white;
+}
+
+.estimate-card > .button-black {
+  margin: 8px 0 24px 0;
 }
