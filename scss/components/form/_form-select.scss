@@ -1,0 +1,30 @@
+.form-select {
+  height: 56px;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  color: $black-black-out;
+  padding: 5px 12px;
+  border: 1px solid $gray-praise-giving;
+
+  &.-top {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+
+  &.-middle {
+    border-top: 0;
+  }
+
+  &.-bottom {
+    border-top: 0;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+}
+
+.form-select:focus {
+  outline: none;
+  border: 2px solid $black-young-night;
+  border-radius: 8px;
+  padding: 4px 11px;
+}

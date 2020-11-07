@@ -1,0 +1,17 @@
+.form-text {
+  height: 44px;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: $gray-pig-iron;
+  padding: 5px 12px;
+  border: 1px solid $gray-praise-giving;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.form-text:focus {
+  outline: none;
+  border: 2px solid $black-young-night;
+  border-radius: 8px;
+  padding: 4px 11px;
+}

@@ -245,6 +245,15 @@ ul {
   grid-template-columns: repeat(2, 1fr);
 }
 
+.checkbox-block {
+  height: 26px;
+  margin-bottom: 24px;
+}
+
+.checkbox-block > .text {
+  margin-left: 16px;
+}
+
 .section-container {
   padding: 72px 80px;
 }
@@ -479,6 +488,52 @@ ul {
 
 .button-black:hover {
   background-color: #000;
+}
+
+.form-text {
+  height: 44px;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: #484848;
+  padding: 5px 12px;
+  border: 1px solid #b0b0b0;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.form-text:focus {
+  outline: none;
+  border: 2px solid #222323;
+  border-radius: 8px;
+  padding: 4px 11px;
+}
+
+.form-select {
+  height: 56px;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  color: #222222;
+  padding: 5px 12px;
+  border: 1px solid #b0b0b0;
+}
+.form-select.-top {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.form-select.-middle {
+  border-top: 0;
+}
+.form-select.-bottom {
+  border-top: 0;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.form-select:focus {
+  outline: none;
+  border: 2px solid #222323;
+  border-radius: 8px;
+  padding: 4px 11px;
 }
 
 .logo {

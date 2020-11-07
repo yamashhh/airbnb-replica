@@ -40,8 +40,17 @@
                 </h3>
                 <form>
                   <div class="input-group flex-container">
-                    <input type="text" name="location" placeholder="所在地" />
-                    <select name="rentType" id="rentType">
+                    <input
+                      type="text"
+                      name="location"
+                      placeholder="所在地"
+                      class="form-text"
+                    />
+                    <select
+                      name="rentType"
+                      id="rentType"
+                      class="form-select -middle"
+                    >
                       <option value="entireRoom">
                         <h4>まるまる貸切</h4>
                         <!-- <p>
@@ -59,7 +68,11 @@
                           </p> -->
                       </option>
                     </select>
-                    <select name="guests" id="guests">
+                    <select
+                      name="guests"
+                      id="guests"
+                      class="form-select -bottom"
+                    >
                       <option value="0">ゲスト0人</option>
                       <option value="1">ゲスト1人</option>
                       <option value="2">ゲスト2人</option>
@@ -87,7 +100,11 @@
                     ゲストが利用できる特別なスペースがあればお知らせください
                   </button>
                   <div class="input-group flex-container">
-                    <select name="buildingType" id="buildingType">
+                    <select
+                      name="buildingType"
+                      id="buildingType"
+                      class="form-select -top"
+                    >
                       <option value="" disabled selected hidden>
                         建物タイプ
                       </option>
@@ -118,7 +135,11 @@
                         <!-- <p>キャンピングカー、ファームステイ、テント、タイニーハウス、ツリーハウスなど、特徴的または一風変わった構造の宿泊先を指します</p> -->
                       </option>
                     </select>
-                    <select name="bedrooms" id="bedrooms">
+                    <select
+                      name="bedrooms"
+                      id="bedrooms"
+                      class="form-select -middle"
+                    >
                       <option value="" disabled selected hidden>寝室</option>
                       <option value="0">0寝室</option>
                       <option value="1">1寝室</option>
@@ -137,7 +158,11 @@
                       <option value="14">14寝室</option>
                       <option value="15">15寝室</option>
                     </select>
-                    <select name="bathrooms" id="bathrooms">
+                    <select
+                      name="bathrooms"
+                      id="bathrooms"
+                      class="form-select -bottom"
+                    >
                       <option value="" disabled selected hidden>
                         バスルーム
                       </option>
@@ -174,7 +199,7 @@
                     <div class="checkbox-container">
                       <div class="checkbox-block">
                         <input type="checkbox" id="gym" name="gym" />
-                        <label for="gym">ジム</label>
+                        <label for="gym" class="text -shorter">ジム</label>
                       </div>
                       <div class="checkbox-block">
                         <input
@@ -182,11 +207,15 @@
                           id="waterfront"
                           name="waterfront"
                         />
-                        <label for="gym">ウォーターフロント</label>
+                        <label for="gym" class="text -shorter"
+                          >ウォーターフロント</label
+                        >
                       </div>
                       <div class="checkbox-block">
                         <input type="checkbox" id="hottub" name="hottub" />
-                        <label for="gym">露天風呂・ジャグジー</label>
+                        <label for="gym" class="text -shorter"
+                          >露天風呂・ジャグジー</label
+                        >
                       </div>
                       <div class="checkbox-block">
                         <input
@@ -194,11 +223,13 @@
                           id="beachfront"
                           name="beachfront"
                         />
-                        <label for="gym">ビーチフロント</label>
+                        <label for="gym" class="text -shorter"
+                          >ビーチフロント</label
+                        >
                       </div>
                       <div class="checkbox-block">
                         <input type="checkbox" id="pool" name="pool" />
-                        <label for="gym">プール</label>
+                        <label for="gym" class="text -shorter">プール</label>
                       </div>
                     </div>
                   </div>
